@@ -25,14 +25,6 @@
 </section>
 
 <style>
-	section {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		flex: 1;
-	}
-
     .row {
         display: flex;
         flex-direction: row;
@@ -44,7 +36,12 @@
         display: flex;
         flex-direction: column;
         flex-basis: 100%;
-        flex: 1;
+    }
+
+    @media screen and (min-width: 800px) {
+        .column {
+            flex: 1
+        }
     }
 
 </style>
