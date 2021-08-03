@@ -8,7 +8,8 @@ ghPages.publish(
     user: {
       name: 'Xavier Delamotte', // update to use your name
       email: 'git@xade.eu' // Update to use your email
-    }
+    },
+    dotfiles: true
   },
   () => {
     console.log('Deploy Complete!')
