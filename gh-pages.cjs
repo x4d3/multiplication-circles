@@ -1,6 +1,6 @@
-var ghpages = require('gh-pages');
+var ghPages = require('gh-pages');
 
-ghpages.publish(
+ghPages.publish(
   'build', // path to public directory
   {
     branch: 'gh-pages',
