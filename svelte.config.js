@@ -13,7 +13,7 @@ const config = {
       assets: 'build',
       fallback: null
     }),
-    paths: { base: "/svelte-multiplication-circles" },
+    paths: { base: "/multiplication-circles" },
     // hydrate the <div id="svelte"> element in src/app.html
     target: '#svelte'
   },
